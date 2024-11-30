@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/neoplays/nftmint/soroban-examples/mint-lock/target/release/build/typenum-b72da514a8d1bd37/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/neoplays/nftmint/soroban-examples/mint-lock/target/release/build/typenum-b72da514a8d1bd37/out/op.rs
